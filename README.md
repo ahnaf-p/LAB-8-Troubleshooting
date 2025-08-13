@@ -39,16 +39,16 @@ Bagaimana troubleshooting :
      b. Reset mengunakan tombol reset  
   4. Muncul, MAC, USN, dan PASSSWD sudah benar tapi tidak bisa login  
      a. Ganti versi Winbox, jika mengunakan yang beta, coba versi yang stable nya.  
-c. Tidak bisa akses melalui telnet  
+**c. Tidak bisa akses melalui telnet**  
   1. Pastikan Mikrotik memiliki IP, IP Default adalah **192.168.88.1**, jika belum memiliki IP, tambahkan IP Static dulu.  
   2. Pastikan IP address dan port yang dimasukan sudah benar. Defaultnya **192.168.88.1** dan port **23**  
-d. Tidak bisa akses melalui ssh  
+**d. Tidak bisa akses melalui ssh**  
   1. Pastikan Mikrotik memiliki IP, IP Default adalah **192.168.88.1**, jika belum memiliki IP, tambahkan IP Static dulu.  
   2. Pastikan IP address dan port yang dimasukan sudah benar. Defaultnya **192.168.88.1** dan port **22**  
-e. Perangkat mikrotik/RB error [indikator lampu port ethernet  menyala semuanya]  
+**e. Perangkat mikrotik/RB error [indikator lampu port ethernet  menyala semuanya]**  
   Penyebab masalah: kemungkinan koneksi kaki IC terputus karena korosi, menyebabkan perangkat gagal booting.  
   Solusi: pembersihan PCB, rehot IC, dan verifikasi suplai daya dapat mengembalikan fungsi normal perangkat.  
-f. Mikrotik selalu restart  
+**f. Mikrotik selalu restart**  
   Penyebab: Firmware rusak (corrupted).  
   Solusi: Flash ulang firmware  
 
