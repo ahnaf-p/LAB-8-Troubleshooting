@@ -16,15 +16,16 @@ Bagaimana troubleshooting :
         3. Sambil tetap ditahan tombol resetnya, tancapkan power adaptornya.  
         4. Tunggu kurang lebih 5 detik, atau indikator LED ACT blink sekali, dan lepaskan tombol resetnya.  
         5. Biarkan router melanjutkan proses booting, dan router anda sudah kembali ke default konfigurasi.  
+        
   2. Hard reset, untuk melakukan hard reset pada router anda, silahkan ikuti langkah berikut:  
          ![cv](satu.png)  
 
-            1. Matikan power adaptor router
-            2. Sambungkan/short sisi-sisi yang terpotong jumper hole dengan pinset/obeng.
-            3. Contoh reset hole seperti pada gambar dibawah
-            4. Sambil tetap ditahan reset holenya, anda nyalakan power adaptor 
-            5. Tunggu -+30 detik, kemudian lepaskan jumper reset hole
-            6. Selesai, router sudah tereset. 
+          1. Matikan power adaptor router
+          2. Sambungkan/short sisi-sisi yang terpotong jumper hole dengan pinset/obeng.
+          3. Contoh reset hole seperti pada gambar dibawah
+          4. Sambil tetap ditahan reset holenya, anda nyalakan power adaptor 
+          5. Tunggu -+30 detik, kemudian lepaskan jumper reset hole
+          6. Selesai, router sudah tereset. 
       3. Pastikan IP address di text box sudah benar, kalau pertama kali bisa masukan ip default Mikrotik **192.168.88.1** dan kalu di kolom IP nya 0.0.0.0, gunakan MAC Address untuk login.  
       4. Pastikan saat akan login username dan passwordnya sesuai, kalau pertama kali, masukan **admin** dan tanpa password.  
       5. Coba sambungkan ulang kabel LAN, atau jika masih, coba ganti kabel nya.  
