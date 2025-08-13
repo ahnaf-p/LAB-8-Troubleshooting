@@ -6,11 +6,11 @@ Rabu 13 Agustus 2025
 **Siswa mampu melakukan troubleshooting pada mikrotik   :**  
 Bagaimana troubleshooting :  
   
-**a. Tidak bisa login ke mikrotik**
-      1. Tombol reset, Ketika router mengalami kerusakan ringan, misal karena kesalahan setting sehingga router tidak dapat diremote. Pertolongan pertama yang bisa dilakukan adalah dengan melakukan reset konfigurasi mengunakan tombol reset.  
+**a. Tidak bisa login ke mikrotik**  
+        1. Tombol reset, Ketika router mengalami kerusakan ringan, misal karena kesalahan setting sehingga router tidak dapat diremote. Pertolongan pertama yang bisa dilakukan adalah dengan melakukan reset konfigurasi mengunakan tombol reset.  
          ![ct](dua.png)  
-
-        Untuk melakukan reset konfigurasi pada routerboard bisa dilakukan dengan langkah-langkah sebagai berikut :  
+          Untuk melakukan reset konfigurasi pada routerboard bisa dilakukan dengan langkah-langkah sebagai berikut :  
+          
         1. Lepas power adaptor.  
         2. Tekan tombol reset yang biasanya terletak di dekat power jack dengan keterangan "RES". Ada juga yang terletak dibalakang board seperti RB2011series.  
         3. Sambil tetap ditahan tombol resetnya, tancapkan power adaptornya.  
