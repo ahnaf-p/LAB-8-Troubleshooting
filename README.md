@@ -7,8 +7,8 @@ Rabu 13 Agustus 2025
 Bagaimana troubleshooting :  
   
 **a. Tidak bisa login ke mikrotik**
-  1. Tombol reset, Ketika router mengalami kerusakan ringan, misal karena kesalahan setting sehingga router tidak dapat diremote. Pertolongan pertama yang bisa dilakukan adalah dengan melakukan reset konfigurasi mengunakan tombol reset.
-     ![ct](dua.png)
+  1. Tombol reset, Ketika router mengalami kerusakan ringan, misal karena kesalahan setting sehingga router tidak dapat diremote. Pertolongan pertama yang bisa dilakukan adalah dengan melakukan reset konfigurasi mengunakan tombol reset.  
+     ![ct](dua.png)  
 
     Untuk melakukan reset konfigurasi pada routerboard bisa dilakukan dengan langkah-langkah sebagai berikut :  
     1. Lepas power adaptor.  
@@ -16,8 +16,8 @@ Bagaimana troubleshooting :
     3. Sambil tetap ditahan tombol resetnya, tancapkan power adaptornya.  
     4. Tunggu kurang lebih 5 detik, atau indikator LED ACT blink sekali, dan lepaskan tombol resetnya.  
     5. Biarkan router melanjutkan proses booting, dan router anda sudah kembali ke default konfigurasi.  
-  2. Hard reset, untuk melakukan hard reset pada router anda, silahkan ikuti langkah berikut:
-     ![cv](satu.png)
+  2. Hard reset, untuk melakukan hard reset pada router anda, silahkan ikuti langkah berikut:  
+     ![cv](satu.png)  
 
     1. Matikan power adaptor router
     2. Sambungkan/short sisi-sisi yang terpotong jumper hole dengan pinset/obeng.
@@ -46,11 +46,11 @@ d. Tidak bisa akses melalui ssh
   1. Pastikan Mikrotik memiliki IP, IP Default adalah **192.168.88.1**, jika belum memiliki IP, tambahkan IP Static dulu.  
   2. Pastikan IP address dan port yang dimasukan sudah benar. Defaultnya **192.168.88.1** dan port **22**  
 e. Perangkat mikrotik/RB error [indikator lampu port ethernet  menyala semuanya]  
-  Penyebab masalah: kemungkinan koneksi kaki IC terputus karena korosi, menyebabkan perangkat gagal booting.
-  Solusi: pembersihan PCB, rehot IC, dan verifikasi suplai daya dapat mengembalikan fungsi normal perangkat.
-f. Mikrotik selalu restart
-  Penyebab: Firmware rusak (corrupted).
-  Solusi:
+  Penyebab masalah: kemungkinan koneksi kaki IC terputus karena korosi, menyebabkan perangkat gagal booting.  
+  Solusi: pembersihan PCB, rehot IC, dan verifikasi suplai daya dapat mengembalikan fungsi normal perangkat.  
+f. Mikrotik selalu restart  
+  Penyebab: Firmware rusak (corrupted).  
+  Solusi: Flash ulang firmware  
 
     1. Unduh Netinstall dan file firmware sesuai tipe perangkat dari situs resmi Mikrotik.
     2. Buka Control Panel → Network & Sharing Center → Change Adapter Settings.
@@ -76,7 +76,7 @@ f. Mikrotik selalu restart
 
 # Sumber  
 DK SRY - Youtube: https://youtu.be/XKTOdTjqzOs?si=fKeECFW8uy47dV8u  
-ARRIE CELLULAR - Youtube: https://www.youtube.com/watch?v=bDO-ZBAeV9c
+ARRIE CELLULAR - Youtube: https://www.youtube.com/watch?v=bDO-ZBAeV9c  
 Citraweb: https://citraweb.com/artikel/58/  
 SMKN3Bekasi: https://fajri.smkn3kotabekasi.sch.id/2023/08/30/negara-dengan-internet-5g-tercepat/  
 BelajarMikrotik: https://belajarmikrotik.com/mikrotik-routerboard-tidak-terdeteksi-pada-winbox/  
